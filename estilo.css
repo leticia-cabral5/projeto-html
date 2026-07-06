@@ -1,0 +1,41 @@
+body {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        text-align: left;
+        background-color: rgb(204, 230, 253);
+    }
+
+    h1 {
+        color: rgb(23, 117, 198);
+    }
+    h2, h3 {
+        color: rgb(73, 159, 235);
+    }
+
+    p {
+        font-size: large;
+        color: rgb(14, 83, 144)
+    }
+
+    .legenda {
+        font-size: smaller;
+        color: rgb(4, 62, 113);
+    }
+
+    img {
+        height: 350px;
+        width: 400px;
+    }
+
+    .rodape {
+        color: rgb(2, 54, 99);
+        font-size: medium;
+    }
+
+a { 
+    color: rgb(78, 149, 210);
+}
+
+ul, ol {
+    color: rgb(14, 83, 144)
+}

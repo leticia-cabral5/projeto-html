@@ -1,0 +1,52 @@
+<!<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<h2>Cadastro de Usuários da Escola</h2>
+
+<form action="https://script.google.com/macros/s/AKfycbxVEoLkh2x-Y56Bxa_-fU_zIaDFtdLlFovFrIDhv1R0667_Xba5L-V1-GgBkm9NRdwCnw/exec" method="POST">
+
+<label>Nome Completo</label>
+<input type="text" name="nome" required>
+
+<label>E-mail</label>
+<input type="email" name="email" required>
+
+<label>Telefone</label>
+<input type="tel" name="telefone" required>
+
+<label>CPF</label>
+<input type="text" name="cpf" required>
+
+<label>Data de Nascimento</label>
+<input type="date" name="nascimento" required>
+
+<label>Função</label>
+<select name="funcao" required>
+    <option value="">Selecione</option>
+    <option value="Aluno">Aluno</option>
+    <option value="Professor">Professor</option>
+    <option value="Coordenador">Coordenador</option>
+    <option value="Diretor">Diretor</option>
+    <option value="Secretaria">Secretaria</option>
+    <option value="Responsável">Responsável</option>
+</select>
+
+<label>Nome de Usuário</label>
+<input type="text" name="user" required>
+
+<label>Senha</label>
+<input type="password" name="senha" required>
+
+<button type="submit">Cadastrar Usuário</button>
+
+</form>
+
+</body>
+</html>
